@@ -4,32 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Portfolio</title>
 </head>
 <body>
     <header>
-        <nav class="nav-bar">
+        <nav class="nav-bar" id='navbar'>
             <p><a href="#">About</a></p>
             <p><a href="#">Work</a></p>
             <p><a href="#">Contact</a></p>
         </nav>
     </header>
-    <section class="titul">
+    <section class="titul" id='welcome-section'>
         <div class="name">
-            <p>Hey I am Azim</p>
+            <h1>Hey I am Azim</h1>
             <i class="description">a web developer</i>
         </div>
     </section>
-    <section class="projects">
+    <section class="projects" id='projects'>
         <p class="projects-section-name">
             These are some of my projects
         </p>
-        <div class="projects-box">
-            <div class="box">
+        <div class="projects-box" id='project-tile'>
+            <div class="box project-tile">
                 <a href="#">
                     <div class="box-img">
-                        <img src="./wallhaven-dpwozg.jpg" alt="proj1">
+                        <img src="./assets/wallhaven-dpwozg.jpg" alt="proj1">
                     </div>
                     <div class="box-name">
                         <code><</code>
@@ -38,10 +41,10 @@
                     </div>
                 </a>
             </div>
-            <div class="box">
+            <div class="box project-tile">
                 <a href="#">
                     <div class="box-img">
-                        <img src="./wallhaven-dpwozg.jpg" alt="proj2">
+                        <img src="./assets/wallhaven-dpwozg.jpg" alt="proj2">
                     </div>
                     <div class="box-name">
                         <code><</code>
@@ -50,10 +53,10 @@
                     </div>
                 </a>
             </div>
-            <div class="box">
+            <div class="box project-tile">
                 <a href="#">
                     <div class="box-img">
-                        <img src="./wallhaven-dpwozg.jpg" alt="proj3">
+                        <img src="./assets/wallhaven-dpwozg.jpg" alt="proj3">
                     </div>
                     <div class="box-name">
                         <code><</code>
@@ -62,10 +65,10 @@
                     </div>
                 </a>
             </div>
-            <div class="box">
+            <div class="box project-tile">
                 <a href="#">
                     <div class="box-img">
-                        <img src="./wallhaven-dpwozg.jpg" alt="proj4">
+                        <img src="./assets/wallhaven-dpwozg.jpg" alt="proj4">
                     </div>
                     <div class="box-name">
                         <code><</code>
@@ -74,10 +77,10 @@
                     </div>
                 </a>
             </div>
-            <div class="box">
+            <div class="box project-tile">
                 <a href="#">
                     <div class="box-img">
-                        <img src="./wallhaven-dpwozg.jpg" alt="proj5">
+                        <img src="./assets/wallhaven-dpwozg.jpg" alt="proj5">
                     </div>
                     <div class="box-name">
                         <code><</code>
@@ -86,10 +89,10 @@
                     </div>
                 </a>
             </div>
-            <div class="box">
+            <div class="box project-tile">
                 <a href="#">
                     <div class="box-img">
-                        <img src="./wallhaven-dpwozg.jpg" alt="proj6">
+                        <img src="./assets/wallhaven-dpwozg.jpg" alt="proj6">
                     </div>
                     <div class="box-name">
                         <code><</code>
@@ -99,11 +102,11 @@
                 </a>
             </div>
         </div>
-        <button class="show-all">
-            <a href="#">
+        <a href="https://github.com/balabounce?tab=repositories">
+            <button class="show-all">
                 Show all >
-            </a>
             </button>
+        </a>
     </section>
     <section class="contact">
         <div class="contact-descr">
@@ -111,25 +114,25 @@
         </div>
         <div class="links">
             <div class="link">
-                <a href="#">
+                <a href="https://github.com/balabounce" id='profile-link' target="_blank">
                     <div class="icon">
-                        <img src="./github.svg" alt="github">
+                        <img src="./assets/github.svg" alt="github">
                     </div>
                     <p>GitHub</p>
                 </a>
             </div>
             <div class="link">
-                <a href="#">
+                <a href="mailto:azim01.makaev@yandex.ru" target="_blank">
                     <div class="icon">
-                        <img src="./arroba.svg" alt="mail">
+                        <img src="./assets/arroba.svg" alt="mail">
                     </div>
                     <p>Send a mail</p>
                 </a>
             </div>
             <div class="link">
-                <a href="#">
+                <a href="https://t.me/toagod">
                     <div class="icon">
-                        <img src="./free-icon-telegram-1532545.svg" alt="tele">
+                        <img src="./assets/free-icon-telegram-1532545.svg" alt="tele">
                     </div>
                     <p>Telegram</p>
                 </a>
